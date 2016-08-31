@@ -1,0 +1,7 @@
+#BlackReactor-Kernel Extras
+  
+# Call Post-init script
+service Post-init /post_boot.sh
+    class main
+    user root
+    oneshot
