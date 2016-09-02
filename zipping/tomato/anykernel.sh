@@ -8,6 +8,7 @@ do.devicecheck=1
 do.initd=1
 do.modules=1
 do.cleanup=1
+do.reactor-tweaks=1
 device.name1=YUREKA
 device.name2=YU AO5510
 device.name3=
