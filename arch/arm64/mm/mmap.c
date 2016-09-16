@@ -59,7 +59,6 @@ static unsigned long mmap_rnd(void)
 #endif
 			rnd = get_random_long() & ((1UL << mmap_rnd_bits) - 1);
 	}
->>>>>>> 85fe6a5... BACKPORT: FROMLIST: arm64: mm: support ARCH_MMAP_RND_BITS.
 	return rnd << PAGE_SHIFT;
 }
 
