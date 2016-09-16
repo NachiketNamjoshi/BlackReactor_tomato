@@ -32,7 +32,7 @@ export KBUILD_BUILD_HOST="reactor"
 STRIP="/home/nachiket/android/tomato/toolchains/Linaro/aarch64-linux-android-4.9/bin/aarch64-linux-android-strip"
 MODULES_DIR=$KERNEL_DIR/zipping/common
 OUT_DIR=$KERNEL_DIR/zipping/tomato
-REACTOR_VERSION="alpha-1"
+REACTOR_VERSION="alpha-2"
 compile_kernel ()
 {
 rm -rf $OUT_DIR/*.zip
